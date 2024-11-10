@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Search, MapPin } from 'lucide-react'
-import Navigation from '@/components/navigation'
-import { Button } from '@/components/ui/button'
+import Navigation from 'src/app/components/navigation'
+import { Button } from 'src/app/components/ui/button'
 import {
   Command,
   CommandDialog,
