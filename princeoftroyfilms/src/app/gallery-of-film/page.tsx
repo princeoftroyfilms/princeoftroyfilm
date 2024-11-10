@@ -3,7 +3,7 @@
 import { useRef } from 'react'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import Navigation from '@/components/navigation'
+import Navigation from 'src/app/components/navigation'
 
 export default function GalleryOfFilm() {
   const containerRef = useRef<HTMLDivElement>(null)
